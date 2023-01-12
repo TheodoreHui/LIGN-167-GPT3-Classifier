@@ -1,18 +1,15 @@
-Theodore Hui \
-Asif Mahdin \
-Luke Taylor
-
-Natalie Young
-
 
 # Classification of AI-Generated News Article Descriptions
 
-
+Theodore Hui \
+Asif Mahdin \
+Luke Taylor
+Natalie Young
 # **Introduction**
 
 The proliferation of low-quality news articles in recent years has been a cause for concern for many due to the rise of social media and increasing reliance on internet-based news. With increasingly sophisticated large language models (LLMs), AI-written descriptions of these articles may be generated in such a way that they are more often found among results from search engines and article recommender engines than they would have been otherwise. Although there are many positive applications of LLMs, those who produce malicious content may optimize their content to be selected by such algorithms rather than prioritizing the quality of the content. We propose our project to build a classifier that can identify news article descriptions written by GPT-3 or other LLMs versus human-written text. While this in itself is not a novel idea, our method of generating data for the classifier may be considered as such.
 
-**Model **
+**Model**
 
 Originally designed by Google and deployed by the AI company Hugging Face in 2018, Bidirectional Encoder Representations from Transformers (BERT) is a neural network language model. Its architecture is transformer-based and is a deep learning model designed to process and understand sequential data, such as natural language text. In the BERT model, each word in a sentence is represented by a high-dimensional vector called a _word embedding_. These word embeddings are then fed into the model, which processes the sequence of words in a bidirectional manner, meaning that it takes into account the context of words both before and after the word currently being processed in the sentence. This allows the model to capture the meaning and context of words in a way that is similar to how humans understand language. After word processing, the BERT model uses a multi-layer transformer architecture to learn the relationships between the words in a sentence and generate a sentence representation that captures the overall meaning of the sentence. This sentence representation is then used to perform a variety of natural language processing tasks, such as language translation and text classification. (ChatGPT)
 
